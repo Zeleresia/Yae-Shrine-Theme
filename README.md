@@ -19,3 +19,5 @@
 
 ## *Home Preview*
 ![image](https://github.com/Zeleresia/Yae-Miko-Theme/assets/63954559/d324e073-5b08-4643-9990-9a09874c249d)
+## *Text Channel Preview*
+![image](https://github.com/Zeleresia/Yae-Miko-Theme/assets/63954559/32789eb1-75db-4a61-94a3-a293e323199b)
