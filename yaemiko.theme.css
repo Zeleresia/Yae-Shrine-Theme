@@ -1,0 +1,172 @@
+/**
+ * @name Yae Shrine
+ * @author ZeleMarsh7mary
+ * @description Clean and Beautiful layout, Yae Miko theme
+ * @version 1.0.1
+ */
+
+ /* Background UserProfile AREA*/
+ .theme-dark .app_de4237 {
+	background-image:url(https://i.ibb.co.com/ZNMHKKH/006dg-XNNly1gzax824vdij31hc0u0dr6.jpg);
+	background-size:cover;
+	padding:10px;
+}
+.layers__1c917 {
+	backdrop-filter:blur(3px);
+	background-color:rgba(0,0,0,0.253);
+	border-radius:10px;
+}
+.theme-dark .uploadModal__6eb75,.bg__12180 {
+	background-color:transparent;
+}
+/* DISCORD_ICON_HOME*/
+#app-mount
+  .guilds__2b93a
+  .tutorialContainer_b06ae6
+  .listItem__48528:first-child
+  .wrapper__8436d:before {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  background: url("https://i.ibb.co/MMm8MDy/image-1.png"); /* edit me! */
+  background-size: contain;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  transition: 0.2s ease;
+}
+.homeIcon__560eb,
+.tutorialContainer_b06ae6 .childWrapper_a6ce15 {
+  display: none;
+}
+/* Transparent Stuffs*/
+.container__26baa.themed_b152d4,.chat__52833,.members__573eb,.chat__52833,.container_f79ab4,.theme-dark .container__7e23c,.sidebar_e031be,.theme-dark .scroller_de945b,.wrapper__216eb,.chat-2ZfjoI,.container_bd15da,.privateChannels__9b518,.theme-dark .scroller__89969,.scroller__7c25e,.panels__58331,.nowPlayingColumn_b025fe,.skeletonChatBody__87e20, .skeletonChatContainer__07b95,.scrollableContainer_ff917f,.children_cde9af:after,.folder__17546,.auto__020ac::-webkit-scrollbar-track,
+.auto_a3c0bd::-webkit-scrollbar-track,.chatContent_f087cb,.peopleColumn__0c784,.panels__58331,.container_e1958d,.searchResult__00093,.container__3673d,.userPanelInnerThemed__651e4{
+	background:transparent;
+}
+.theme-dark .form_d8a4a1:before, .theme-dark .form_d8a4a1:after{
+	background: transparent
+}
+.theme-dark .children_cde9af:after {
+	background: transparent;
+}.scroller_d4b86c::-webkit-scrollbar-track,.searchBarComponent__8f95f {
+    background-color: transparent !important;
+} 
+/* Background Dark Area*/
+.chatContent_f087cb,.searchBarComponent__8f95f,.peopleColumn__0c784,.panels__58331,.expandedFolderBackground_b1385f,.member_aa4760,.contentRegion__08eba,.contentTransitionWrap__3ba4e {
+	background-color: rgba(0, 0, 0, 0.349);
+}
+/* More Darker*/
+.side_b4b3f6,.searchResultsWrap__2e184,.messagesPopoutWrap__10dd1,.searchBar__5a20a,.searchResultsWrap__2e184,.messagesPopoutWrap__10dd1,.searchHeader__4d70e,.channelTextArea_cb604a,.channelTextArea_c2094b{
+	background-color:rgba(0,0,0,0.534);
+}
+.quickswitcher_b5bb0a {
+	background-color: rgba(255, 165, 165, 0.46)
+}
+.input__2a648,.scroller_d4b86c ,.auto_a3c0bd ,.scrollerBase_f742b2{
+	background-color: rgba(54, 17, 17, 0.622);
+	border-radius: 10px;
+}
+.result__25f11[aria-selected=true] {
+	background-color: rgba(255, 165, 165, 0.46)
+}
+
+/* Buttons*/
+
+/* --Improved User Area-- MADE BY riddim_glitch*/
+/* Make both the username and status message visible at all times. */
+.container_debb33 .hovered__5a165,.hoverRoll__3ea9e.forceHover__733de:not(.disabled__6cbf4) .default__74311 {
+	opacity:1!important;
+	transform: none;
+}
+/* Adds an @ to the username. Discord,for the love of god,just add this yourself already. */
+.container_debb33 .hovered__5a165::before {
+	content: "@";
+}
+/* Move the custom Status message down so that it doesnt overlap with the Username */
+.default__74311 {
+	margin-top: 15px;
+}
+/* Credit to @thecommieaxolotl for this code. */
+/* --Hides User Buttons until Hover-- */
+/* Hide mute and deafen buttons */
+.panels__58331>.container_debb33 .flex_f18b02>:not(:last-child) {
+	opacity:0% !important;
+	width:0px;
+	transition: all 0.3s ease-in-out;
+}
+/* Reveal mute and Deafen buttons when settings button is hovered */
+.panels__58331>.container_debb33 .flex_f18b02:hover>:not(:last-child) {
+	opacity:100% !important;
+	width: 32px;
+}
+/* Resize and move the profile button to take up all the space it can to look clean. */
+.avatarWrapper__500a6 {
+	transition:all 0.3s ease-in-out;
+	width:100%!important;
+	margin-left:-10px;
+	height:53px;
+	border-radius: 0!important;
+}
+/* Move the avatar back to the right a bit to look clean. */
+.avatarWrapper__500a6 .avatar_f8541f {
+	margin-left: 10px;
+}
+/* Visible the container of profile*/
+.theme-dark .container_debb33 {
+	background-color: transparent;
+}
+
+/* BORDER AREA ==============*/
+.theme-dark code,.chat__52833,.members__573eb>div,.chat__52833,.sidebar_e031be,.wrapper__216eb,.chat-2ZfjoI,.container_bd15da,.panels__58331 {
+	border:2px solid rgba(255, 163, 163, 0.685);
+	border-radius: 10px;
+}
+.modeSelected__473f1 .link_ddbb36,.modeSelected__473f1:hover .link_ddbb36 {
+	background-color:rgba(255, 174, 198, 0.358);
+	border:2px dashed rgba(255, 163, 163, 0.685);
+	border-radius:10px;
+}
+/* BORDER RADIUS AREA =======*/
+.chatContent_f087cb,.peopleColumn__0c784,.panels__58331, .userPopoutOuter_d67f56,.userProfileOuter__35e59,.userProfileOuterUnthemed__9741c,.userPanelOuter_df01a5,.bannerSVGWrapper__8a38c,.userProfileOuterThemed_a425f3,.theme-dark,.custom-theme-background,.auto_a3c0bd::-webkit-scrollbar-track, .none_ff9f86,.scrollerBase__65223 {
+	border-radius:10px;
+}
+/*margin ====================*/
+.members__573eb,.members__573eb>div {
+	margin:2px;
+	padding:2px;
+}
+.container__7e23c {
+	margin:3px;
+}
+.sidebar_e031be,.scroller__89969 {
+	margin:2px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.userPanelInnerThemed__651e4 {
+	margin:3px;
+	padding: 10px;
+}
+.chat__52833 {
+	margin-left: 10px;
+}
+.panels__58331 {
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-bottom: 5px;
+	align-content: center;
+}
+/*** UTILITY HERE ***/
+[class^="imageWrapper_"] img[class^="lazyImg"] {
+	object-fit:contain !important;
+}
+.markup_a7e664 code {
+	background:rgba(255, 174, 198, 0.534);
+}
+::selection {
+	background-color:rgba(255, 163, 163, 0.685);
+	color:rgb(255,255,255);
+	text-shadow: 1px 1px 2px rgba(0,0,0,.6666666667);
+}
+
