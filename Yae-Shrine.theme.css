@@ -1,0 +1,21 @@
+/**
+ * @name Yae Shrine
+ * @author ZeleMarsh7mary
+ * @description Clean and Beautiful layout, Yae Miko theme
+ * @version 2.0.0
+ */
+
+ /* Import CSS */
+ @import url(https://zeleresia.github.io/Yae-Shrine-Theme/main.css);
+
+ /* Settings */
+ :root {
+    /* Accent Colors */
+  --main-color: rgba(255, 183, 183, 0.842);
+  --border-color: rgba(255,163,163,0.685);
+  --hover-color: rgba(227, 159, 159, 0.842);
+  --success-color: rgba(97, 255, 160, 0.758);
+  --danger-color: rgba(194, 0, 0, 0.758);
+  --url-color: var(--main-color);
+ }
+ 
