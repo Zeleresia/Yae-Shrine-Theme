@@ -3,7 +3,7 @@
   <img align="left" src="https://github.com/Zeleresia/Yae-Miko-Theme/assets/63954559/36d4098b-9298-443d-ad6a-4ba4df9a9e8d" alt="Logo" width="80" height="80">
 
   <h3 align="left">Macrophylla</h3>
-  <p align="left">I love design ✨</p>
+  <p align="left">Fantastic Imaginary ✨</p>
   <br/>
 </div>
   <br/>
